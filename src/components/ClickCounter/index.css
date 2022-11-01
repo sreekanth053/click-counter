@@ -3,21 +3,30 @@
   background-color: #ffffff;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .heading {
   color: #2d3a35;
-  font-size: 30px;
+  font-size: 40px;
   font-family: Roboto;
+  text-align: center;
 }
-.count {
+.counting {
   color: #c20a72;
-  font-size: 30px;
+  font-size: 40px;
   font-family: Roboto;
 }
 .description {
   color: #2d3a35;
   font-size: 20px;
   font-family: Roboto;
+  text-align: center;
+}
+.buttons {
+  text-align: center;
 }
 .button {
   color: #ffffff;
@@ -25,4 +34,6 @@
   border-radius: 10px;
   border-width: 0px;
   text-align: center;
+  height: 40px;
+  width: 90px;
 }
